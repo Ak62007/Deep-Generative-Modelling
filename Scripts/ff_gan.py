@@ -172,4 +172,8 @@ if __name__ == "__main__":
         epochs=50,
     )
     
-    
+    visualize(
+        generator=trained_generator,
+        noise_size=noise_size,
+        device=device
+    )
