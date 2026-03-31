@@ -12,3 +12,4 @@ wheels/
 # others
 data/*
 .env
+papers/
